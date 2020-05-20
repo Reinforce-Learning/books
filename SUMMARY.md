@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [强化学习中文版](README.md)
 
