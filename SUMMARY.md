@@ -1,3 +1,4 @@
-# Summary
+# Table of contents
 
-* [编者续](README.md)
+* [Initial page](README.md)
+
