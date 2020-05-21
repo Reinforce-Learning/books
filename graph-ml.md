@@ -68,7 +68,7 @@ $$
 
 ![](.gitbook/assets/image%20%286%29.png)
 
- 
+
 
 ## Network Properties: 怎么去衡量网络
 
@@ -138,7 +138,7 @@ $$
 
 ### Erdös-Renyi Random Graphs Model
 
-$G\_{np}$: 无向图有n个nodes，根据独立同分布的概率p来连接。 
+$G\_{np}$: 无向图有n个nodes，根据独立同分布的概率p来连接。
 
 $G\_{nm}$: 无向图有n个nodes，m条边随机从均匀分布\(**uniform distribution**\) 产生
 
@@ -151,4 +151,3 @@ $$
 ![Degree Distribution](.gitbook/assets/image%20%287%29.png)
 
 ![](.gitbook/assets/image%20%288%29.png)
-
