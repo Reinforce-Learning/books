@@ -86,7 +86,7 @@ $$
 
 #### 图的访问路径
 
-![ACBDCDEG](.gitbook/assets/image%20%289%29.png)
+![ACBDCDEG](.gitbook/assets/image%20%2811%29.png)
 
 #### 图的距离表示
 
@@ -102,7 +102,7 @@ $$
 
 #### 集群系数\(clustering coefficient\)
 
-![Clustering Coefficient](.gitbook/assets/image%20%287%29.png)
+![Clustering Coefficient](.gitbook/assets/image%20%289%29.png)
 
 $$
 \begin{array}{l}C_{i} \in[0,1] \\ C_{i}=\frac{2 e_{i}}{k_{i}\left(k_{i}-1\right)} \quad \begin{array}{l}\text { where } e_{i} \text { is the number of edges } \\ \text { between the neighbors of node } i\end{array}\end{array}
@@ -123,9 +123,32 @@ $$
 C=\frac{1}{N} \sum_{i}^{N} C_{i}
 $$
 
-![&#x66F4;&#x591A;&#x4F8B;&#x5B50;](.gitbook/assets/image%20%288%29.png)
+![&#x66F4;&#x591A;&#x4F8B;&#x5B50;](.gitbook/assets/image%20%2810%29.png)
 
 #### 连接性\(Connectivity\)
 
+最大组件：Largest Component=Giant Component
 
+找Connected Component:
+
+1. 从随机节点开始BFS
+2. 标记访问过的节点
+3. 如果所有节点都能被访问，就是连接图
+4. 否则继续寻找没有访问的节点，重复BFS
+
+### Erdös-Renyi Random Graphs Model
+
+$G\_{np}$: 无向图有n个nodes，根据独立同分布的概率p来连接。 
+
+$G\_{nm}$: 无向图有n个nodes，m条边随机从均匀分布\(**uniform distribution**\) 产生
+
+#### Degree Distribution
+
+$$
+G_{np} \text{的Degree Distribution是binomial Distribution} \\
+$$
+
+![Degree Distribution](.gitbook/assets/image%20%287%29.png)
+
+![](.gitbook/assets/image%20%288%29.png)
 
