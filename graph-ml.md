@@ -6,16 +6,16 @@ description: cs224w
 
 ## Introduction of structure of Graphs
 
-#### Two Types of Networks/Graphs
+### Two Types of Networks/Graphs
 
 * Natural Network
 * Information Graphs
 
-#### Different Types of Graphs
+### Different Types of Graphs
 
 ![Different Types of Graphs From cs224w](.gitbook/assets/image%20%283%29.png)
 
-#### Network and Application
+### Network and Application
 
 1. Predict the type/color of a given node
    * Node classification
@@ -26,11 +26,11 @@ description: cs224w
 4. Measure similarity of two nodes/networks
    * Network similarity
 
-#### Structure of Graphs
+### Structure of Graphs
 
 ![Component of a Network](.gitbook/assets/image%20%282%29.png)
 
-#### Choice of Network Representation
+### Choice of Network Representation
 
 1. Directed and Undirected and degrees
 
@@ -69,6 +69,63 @@ $$
 ![](.gitbook/assets/image%20%286%29.png)
 
  
+
+## Network Properties: 怎么去衡量网络
+
+### Degree Distribution
+
+$$
+P(k)=N_k/N
+$$
+
+$$
+N_k \text{指带有degree的Nodes}
+$$
+
+### Path in Graphs
+
+#### 图的访问路径
+
+![ACBDCDEG](.gitbook/assets/image%20%289%29.png)
+
+#### 图的距离表示
+
+若节点不可达，则距离为无限大♾
+
+#### 网络直径\(Network Diameter\)
+
+$$
+\bar{h}=\frac{1}{2 E_{\max }} \sum_{i, j \neq i} h_{i j} \\
+h_{ij} \text{是node i 到node j的距离} \\
+E_{max} =\frac{n(n-1)}{2}  \text{是最大边数}\\
+$$
+
+#### 集群系数\(clustering coefficient\)
+
+![Clustering Coefficient](.gitbook/assets/image%20%287%29.png)
+
+$$
+\begin{array}{l}C_{i} \in[0,1] \\ C_{i}=\frac{2 e_{i}}{k_{i}\left(k_{i}-1\right)} \quad \begin{array}{l}\text { where } e_{i} \text { is the number of edges } \\ \text { between the neighbors of node } i\end{array}\end{array}
+$$
+
+以图二为例：
+
+$$
+C_i = \frac{3 \times 2}{4 \times 3 } = 0.5 \\
+e_i\text{为3，}k_i\text{为4}
+$$
+
+平均集群系数\(Average clustering coefficient\):
+
+
+
+$$
+C=\frac{1}{N} \sum_{i}^{N} C_{i}
+$$
+
+![&#x66F4;&#x591A;&#x4F8B;&#x5B50;](.gitbook/assets/image%20%288%29.png)
+
+#### 连接性\(Connectivity\)
 
 
 
