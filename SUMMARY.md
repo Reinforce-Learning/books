@@ -1,4 +1,5 @@
 # Table of contents
 
-* [强化学习中文版](README.md)
+* [机器学习汇总笔记](README.md)
+* [图机器学习](tu-ji-qi-xue-xi.md)
 
